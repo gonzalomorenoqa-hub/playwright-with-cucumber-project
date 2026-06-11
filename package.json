@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "this is a project where I implement cucumber using playwright",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "cucumber-test": "cucumber-js test",
+    "cucumber": "cucumber-js --config config/cucumber.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gonzalomorenoqa-hub/playwright-with-cucumber-project.git"
