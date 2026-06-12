@@ -1,5 +1,5 @@
 Feature: Register
-  Test Case 1: Register User
+ Test Case 1: Register User
   1. Launch browser
   2. Navigate to url 'http://automationexercise.com'
   3. Verify that home page is visible successfully
@@ -22,5 +22,5 @@ Feature: Register
 
   Scenario: Success Register
     Given A web browser is at the automationexercise home page
-    When A user enters the username "asd", the password "asd" and the email "ads1@test.com", and clicks on the register button
-    Then The user should be registered successfully with the username "asd"
+    When A user enters the username "GonzaloTest", the password "Test123" and the email "gonzalo@test.com", and clicks on the register button
+    Then The user should be registered successfully with the username "GonzaloTest"

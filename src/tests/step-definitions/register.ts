@@ -12,7 +12,7 @@ let pm : PageManager;
 
 Given('A web browser is at the automationexercise home page',{timeout: 10 * 1000}, async function () {
     // Add this to the launch options to run the tests in headless mode: {headless: false}
-    browser = await chromium.launch({headless: false});
+    browser = await chromium.launch();
     page = await browser.newPage();
     await page.goto('https://www.automationexercise.com/');
     expect(await page.locator('//img[@alt="Website for automation practice"]').isVisible());
